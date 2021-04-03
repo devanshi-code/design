@@ -1,11 +1,20 @@
+body{
+    box-sizing: border-box;
+     margin: 0%;
+     padding:0%
+}
 h1{
     color:blue;
     text-align: left;
     
 }
 .logo{
-    height:180;
+    height:100;
     width: 80;
     float:right;
     
 }
+
+
+    
+
