@@ -3,7 +3,7 @@ body{
      margin: 0%;
      padding:0%
 }
-h1{
+/* h1{
     color:blue;
     text-align: left;
     
@@ -24,4 +24,117 @@ h1{
     transform: rotate(90deg);
     
 }    
+ */
+ @media screen and (max-width: 768px){
+    .footer_socialLink {
+        display:flex;
+        flex-direction: column;   
+    }
+    .footer_socialLinkHeader{
+        flex-direction: column;
+    }
+    .footer_socialDetails{
+        margin-left: 50px;
+        margin-right: 0;
+    } 
+}
+.footer_headerlogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.header_getintouch{
+color:blue;
+font-size:18px;
+margin:10px 5px 0 20px;
+text-align: center;
+}
+.techtablelogo{
+    width:200px;
+    margin:20px 50px 0 0;
+    object-fit: contain;
+}
+.footer_socialLinkHeader{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer_socialLink{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_socialLinkLeft{
+    margin-right:200px;
+}
+.footer_socialLinkRight{
+   width: 100%;
+}
+.footer_socialLinkDescription{
+display:flex;
+width:200px;
+}
+.footer_socialLinkDescriptionspan{
+    font-size:18px;
+    font-weight:500;
+    margin-left:25px;
+}
+
+
+.social_link {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ .social_link li {
+    font-size: 20px;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.social_link .facebook {
+    
+    background-color: #3b5998;
+}
+.social_link li a {
+    
+    color: #fff;
+}
+.social_link .linkedin {
+    background-color: #0e76a8;
+}
+.social_link .telegram {
+    background-color: #0e76a8;
+}
+.social_link  .whatsapp {
+    background-color: #25d366;
+}
+.social_link  .youtube {
+    background-color: #c4302b;
+}
+
+.footer_socialDetails{
+    padding-left: 20px;
+    border-left: 2px solid blue;
+    height: 200px;
+    margin-right: 50px;
+}
+
+.footer_socialAddress{
+    margin:20px 0 0 0  !important;
+    color: blue;
+    
+}
+
+.footer_socialDetails > span{
+    color: black;
+ 
+}
